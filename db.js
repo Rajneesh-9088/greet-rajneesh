@@ -14,10 +14,12 @@ const Tasks = db.define('task', {
         type: Sequelize.DataTypes.STRING,
         allowNull: false
     },
-    done: {
-        type: Sequelize.DataTypes.BOOLEAN,
-        defautlValue: false
-    }
+    name: {
+        type: Sequelize.DataTypes.INTEGER,
+  
+        
+    },
+  
 })
 
 module.exports = {
