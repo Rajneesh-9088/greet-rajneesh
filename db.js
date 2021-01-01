@@ -7,7 +7,7 @@ const db = new Sequelize({
 const Tasks = db.define('task', {
     id: {
         type: Sequelize.DataTypes.INTEGER,
-        primarykey: true,
+        primaryKey: true,
         autoIncrement: true
     },
     name: {
